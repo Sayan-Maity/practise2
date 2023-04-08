@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use("/person", person)
 app.get('/', (req, res) => {
-    res.send("You have landed to the student server on 08/04/23")
+    res.send("You have landed to Sayan's Server :), Well don't worry, just Enjoy !!")
 })
 
 
